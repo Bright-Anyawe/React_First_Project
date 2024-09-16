@@ -1,4 +1,10 @@
 function List(props) {
+
+    if (!props.animalsList) {
+    return <div> ..Loading</div>
+}
+
+
   return (
     <ul>
       {props.animalsList.map((animal) => {
@@ -20,4 +26,4 @@ function AnimalListApp() {
 }
 
 // export {ListItem, List, DefineAnimalListApp }
-export default AnimalListApp;
+export default List;

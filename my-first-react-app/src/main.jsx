@@ -5,9 +5,11 @@ import App from './App.jsx'
 import Greeting from './PublicGreeting.jsx'
 import DisplayFavoriteFood from './FavoriteFood.jsx'
 import ConvertHtmlJsx from "./convertHtml.jsx";
-import RenderListOfElements from "./RenderListOfElements.jsx"
+// import RenderListOfElements from "./RenderListOfElements.jsx"
 // import {ListItem, List, DefineAnimalListApp } from "./RenderListOfComponent.jsx"
 import DefineAnimalListApp from './RenderListOfComponent'
+import List from "./ConditionallyRenderUi.jsx";
+
 
 
 
@@ -18,8 +20,7 @@ createRoot(document.getElementById("root")).render(
 
     <DisplayFavoriteFood />
     <ConvertHtmlJsx />
-    {/* <RenderListOfElements/> */}
-    <DefineAnimalListApp/>
-
+    <DefineAnimalListApp />
+    {/* <List /> */}
   </StrictMode>
 );
