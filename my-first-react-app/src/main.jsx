@@ -12,6 +12,8 @@ import RenderButtonApp from './ButtonComponent.jsx'
 import List from "./ConditionallyRenderUi.jsx";
 import Gallery from "./Gallery.jsx";
 import Form from './Form.jsx'
+import FeedbackFrom from "./Feedback.jsx";
+import BackgroundApp from "./BackgroundColor.jsx"
 
 
 
@@ -28,7 +30,9 @@ createRoot(document.getElementById("root")).render(
     <List />
     <RenderButtonApp />
     <Gallery />
-
     <Form />
+    <FeedbackFrom />
+    <BackgroundApp />
+
   </StrictMode>
 );
