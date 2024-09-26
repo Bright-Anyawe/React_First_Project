@@ -13,8 +13,8 @@ import List from "./ConditionallyRenderUi.jsx";
 import Gallery from "./Gallery.jsx";
 import Form from './Form.jsx'
 import FeedbackFrom from "./Feedback.jsx";
-import BackgroundApp from "./BackgroundColor.jsx"
-
+import BackgroundApp from './BackgroundColor.jsx'
+import Person from './PersonApp.jsx'
 
 
 
@@ -33,6 +33,6 @@ createRoot(document.getElementById("root")).render(
     <Form />
     <FeedbackFrom />
     <BackgroundApp />
-
+    {/* <Person /> */}
   </StrictMode>
 );
