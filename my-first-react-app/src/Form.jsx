@@ -19,6 +19,7 @@ import { useState } from "react";
 
   return (
     <form onSubmit={(e) => e.preventDefault()}>
+      
       <input
         placeholder="First name"
         value={firstName}
@@ -34,7 +35,7 @@ import { useState } from "react";
       </h1>
       <button onClick={handleReset}>Reset</button>
     </form>
-  );
+  );  
 }
 
 export default Form;

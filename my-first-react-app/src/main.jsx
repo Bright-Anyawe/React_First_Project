@@ -15,6 +15,9 @@ import Form from './Form.jsx'
 import FeedbackFrom from "./Feedback.jsx";
 import BackgroundApp from './BackgroundColor.jsx'
 import Person from './PersonApp.jsx'
+import Clock from './Clock.jsx'
+import AdditionDisplay from "./AdditionDisplay.jsx"
+import EffectIsNotForEvent from "./EffectIsNotForEvent.jsx"
 
 
 
@@ -33,6 +36,10 @@ createRoot(document.getElementById("root")).render(
     <Form />
     <FeedbackFrom />
     <BackgroundApp />
-    {/* <Person /> */}
+    <Person />
+    <Clock />
+<AdditionDisplay/>
+<EffectIsNotForEvent />
   </StrictMode>
+
 );
